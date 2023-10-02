@@ -28,15 +28,34 @@
 
 /* Flexbox Part 2 */
 
-#flex-section2 ul {}
+#flex-section2 ul {
+	display: flex;
+	list-style: none;
+	padding: 0;
+}
 
-#flex-section2 li {}
+#flex-section2 li {
+	color:#000;
+	background-color: #ccc;
+	font-size: 1rem;
+	border-radius: 7px;
+	border: 4px solid #555;
+    margin: 0;
+	flex: 1;
+	padding: 10px; 
+}
 
-#flex-section2 .item1 {}
+#flex-section2 .item1 {
+	order: 1;
+}
 
-#flex-section2 .item2 {}
+#flex-section2 .item2 {
+	order: 3;
+}
 
-#flex-section2 .item3 {}
+#flex-section2 .item3 {
+	order: 2;
+}
 
 /* end Flexbox Part 2 */
 
