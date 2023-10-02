@@ -3,7 +3,7 @@
 #flex-section1 ul {
 	padding: 0;
 	display: flex;
-	justify-content: space-around;
+	justify-content:space-evenly;
 	list-style: none;
 }
 
@@ -62,7 +62,9 @@
 
 /* Flexbox Part 3 */
 
-#flex-section3 .box {}
+#flex-section3 .box {
+
+}
 
 #flex-section3 .tags ul {}
 
