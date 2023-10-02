@@ -82,16 +82,40 @@
 
 /* Grid Part 1 */
 
-#grid-section1 .grid {}
+#grid-section1 .grid {
+	display: grid;
+	grid-template-columns: repeat(4, 1fr);
+	grid-auto-rows: 100px;
+	grid-gap: 20px;
+
+}
 
 /* end Grid Part 1 */
 
 
 /* Grid Part 2 */
 
-#grid-section2 .gridboxblue {}
+#grid-section2 .gridboxblue {
+	grid-row: 1/span 3;
+	grid-column: 2/span 3;
+	background-color: rgba(0, 0, blue, 0.6);
+	color: #fff;
+	border: 8px solid #000088;
+	border-radius: 8px;
+	padding: 10px;
+	z-index: 2;
+}
 
-#grid-section2 .gridboxred {}
+#grid-section2 .gridboxred {
+	grid-row: 2/span 1;
+	grid-column: 1/span 2;
+	background-color: rgba(red, 0green, 0, 0.6);
+	color: #fff;
+	border: 8px solid #880000;
+	border-radius: 8px;
+	padding: 10px;
+	z-index: 1;
+}
 
 /* end Grid Part 2 */
 
