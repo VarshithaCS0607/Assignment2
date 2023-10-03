@@ -76,7 +76,7 @@
 	/* For removing default liste bullets */
 	display: flex;
 	flex-wrap: wrap;
-	gap: 5px;
+	gap: 2px;
 	/* Spacing between tags */
 	padding: 0;
 	margin: 0;
